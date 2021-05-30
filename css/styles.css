@@ -1,83 +1,68 @@
-*{
-    margin: 0;
-    padding: 0;
-    color: #fff;
-}
-header{
-    width: 100%;
-    background: #1ABC9C;
-    height: 70px;
-}
 body{
     background-color: #035e4b;
+    color: white;
+    font-family: 'Monserrat', sans-serif;
 }
-.ancho{
-    width: 80%;
-    height: 70px;
-    margin: auto;
+.barra{
+    position: relative;
+    background-color: #000;
+    width: 100%;
+    height: 100px;
 }
-.logo{
-    width: 30%;
-    height: 70px;
-    float: left;
-    padding-top: 10px;
-    box-sizing: border-box;
-}
-nav{
-    width: 70%;
-    height: 70px;
-    float: left;
-    text-align: right;
-    padding-top: 24px;
-    box-sizing: border-box;
-    
-}
-.logo p a{
+.nombre{
+    display: inline-block;
     color: #fff;
-    font-size: 40px;    
-    text-decoration: none; 
-    font-weight: bold;
-    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    padding: auto;
+    font-size: 32px;
+    margin-left: 10%;
+    letter-spacing: 2px;
 }
-li{
+a{
+    text-decoration: none;
+    color: #fff;
+}
+li {
     display: inline;
-}
-nav ul li a{
-    color: #fff;
-    font-size: 20px;
-    text-decoration: none;  
-    letter-spacing: 1px;
-    font-family: 'Montserrat', sans-serif;    
+    width: auto; 
+    list-style: none;
+    text-align: center;
+    border: solid;
     border-color: #fff;
     padding: 5px;
-    text-align: center;
-    font-weight: bold;
-}
-nav ul li a:hover{
-    color: #333;
-    
-}
-.logo p a:hover{
-    color: #333;
-}
-h2{
-    font-family: 'Montserrat', sans-serif;  
-    font-weight: bold;
-    letter-spacing: 1px;
-    text-align: center;
-}
+    font-size: 24px;
+    margin-left: 60%;
+    }
 section{
-    font-family: 'Montserrat', sans-serif;    
-    width: 50%;
-    margin: auto;
-    height: 500px;
+    background-color: purple;
+    width: 40%;
+    height: auto;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.foto{
+    margin-left: auto;
+    margin-right: auto;
     text-align: center;
-    padding: 10px;
-    border-radius: 30px;
+    width: 80px;
+    height: 80px;
+    overflow: hidden;
+    border-radius: 50%; 
 }
 .text{
-    margin: 50px;
-    font-size: 24px;
     text-align: justify;
-    padding: auto;
+}
+footer{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    background-color: #000;
+    font-size: 16px;
+    margin-top: 20px;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 0;
 }
