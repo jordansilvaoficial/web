@@ -4,6 +4,7 @@ body{
     font-family: 'Monserrat', sans-serif;
     box-sizing: border-box;
     padding-top: 120px;
+    overflow-x: hidden;
 }
 .barra{
     position: fixed;
@@ -81,6 +82,9 @@ section{
     margin-right: auto;
 }
 @media (max-width: 1200px){
+    .blog{
+        box-sizing: border-box;
+    }
     img{
         width: 100px;
         height: 100px;
@@ -111,6 +115,11 @@ section{
     .titulo4{
         text-align: center;
     }
+    .flaticon{
+        display: flex;
+        justify-content: center;
+        font-size: 10px;
+    }
 }
 .titulo1{
     display: inline-block;
@@ -138,13 +147,18 @@ section{
 .social{
     display: flex;
     justify-content: space-around;
-    background: red;
+    /*background: red;*/
     position: relative;
     margin-top: 20px;
     padding: 10px;
 }
-.instagram{
-
+.redes{
+   fill: #fff;
+   transition: .2s;
+   }
+.redes:hover{
+    fill: #000;
+    transform: scale(1.1);
 }
 footer{
     width: 100%;
@@ -157,4 +171,12 @@ footer{
     text-align: center;
     padding: 10px;
     margin-bottom: 0;
+}
+.flaticon{
+    display: flex;
+    justify-content: center;
+    
+}
+.social{
+    margin-bottom: 50px;
 }
